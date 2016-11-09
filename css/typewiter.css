@@ -1,0 +1,140 @@
+        @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+        
+        .typed-cursor{
+            opacity: 1;
+            -webkit-animation: blink 0.7s infinite;
+            -moz-animation: blink 0.7s infinite;
+            animation: blink 0.7s infinite;
+        }
+        @keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-webkit-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-moz-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        
+        span.element{
+            font-family: 'Montserrat', sans-serif;
+            position: absolute;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 48px;
+            color:#00b4ff;
+            width:500px;
+            text-align:left;
+            margin-left:15px;
+        }
+
+        @media (min-width: 980px) and (max-width: 1199px){
+
+                    span.element{
+                            font-family: 'Montserrat', sans-serif;
+                            position: absolute;
+                            text-transform: uppercase;
+                            font-weight: 700;
+                            font-size:36px;
+                            color:#00b4ff;
+                            width:500px;
+                            text-align:left;
+                            margin-left:15px;
+                        }
+                }
+
+        @media (min-width: 801px) and (max-width: 979px){
+
+                    span.element{
+                            font-family: 'Montserrat', sans-serif;
+                            position: absolute;
+                            text-transform: uppercase;
+                            font-weight: 700;
+                            font-size:36px;
+                            color:#00b4ff;
+                            width:500px;
+                            text-align:left;
+                            margin-left:15px;
+                        }
+                }
+
+        @media (min-width: 768px) and (max-width: 800px){
+
+            span.element{
+                    font-family: 'Montserrat', sans-serif;
+                    position: absolute;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    font-size:36px;
+                    color:#00b4ff;
+                    width:500px;
+                    text-align:left;
+                    margin-left:15px;
+                }
+        }
+
+        @media (min-width: 640px) and (max-width: 767px){
+
+            span.element{
+                    font-family: 'Montserrat', sans-serif;
+                    position: absolute;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    font-size:30px;
+                    color:#00b4ff;
+                    width:500px;
+                    text-align:left;
+                    margin-left:15px;
+                }
+        }
+
+        @media (min-width: 481px) and (max-width: 639px){
+
+                    span.element{
+                            font-family: 'Montserrat', sans-serif;
+                            position: absolute;
+                            text-transform: uppercase;
+                            font-weight: 700;
+                            font-size:30px;
+                            color:#00b4ff;
+                            width:500px;
+                            text-align:left;
+                            margin-left:15px;
+                }
+        }
+
+        @media (min-width: 360px) and (max-width: 480px){
+
+                    span.element{
+                            font-family: 'Montserrat', sans-serif;
+                            position: absolute;
+                            text-transform: uppercase;
+                            font-weight: 700;
+                            font-size:20px;
+                            color:#00b4ff;
+                            width:500px;
+                            text-align:left;
+                            margin-left:15px;
+                        }
+                }
+
+        @media (min-width: 250px) and (max-width: 359px){
+
+                    span.element{
+                            font-family: 'Montserrat', sans-serif;
+                            position: absolute;
+                            text-transform: uppercase;
+                            font-weight: 700;
+                            font-size:16px;
+                            color:#00b4ff;
+                            width:500px;
+                            text-align:left;
+                            margin-left:15px;
+                        }
+                }
